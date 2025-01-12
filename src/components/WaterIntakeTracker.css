@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  h2 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-top: 20px;
+  }
+  
+  /* Custom Input Styles */
+  .custom-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .custom-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button Styles */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .btn.mt-3 {
+    margin-top: 15px;
+  }
+  
+  .btn.ml-2 {
+    margin-left: 10px;
+  }
+  
+  /* Alert Styles */
+  .alert {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+  }
+  
+  .alert-info {
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    color: #0c5460;
+  }
+  
+  /* Comparison Section */
+  .comparison-section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .comparison-section h4 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* Table Styles */
+  .table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table td {
+    background-color: #fff;
+  }
+  
+  .table td button {
+    margin: 0 5px;
+  }
+  
+  /* Pagination Styles */
+  .pagination-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-container button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+  }
+  
+  .pagination-container span {
+    font-size: 1.2rem;
+  }
+  
