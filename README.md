@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</head>
+<body>
 
-## Available Scripts
+  <h1>🌊 Daily Water Intake Site</h1>
+  <p>A React.js project that helps users track their daily water intake. The application provides an easy-to-use interface for logging, editing, and managing water consumption data to promote a healthy lifestyle.</p>
 
-In the project directory, you can run:
+  <h2>🚀 Features</h2>
+  <ul>
+    <li><strong>User Signup/Login:</strong> Users can create an account to track their water intake.</li>
+    <li><strong>Water Intake Tracker:</strong> Add daily water intake with automatic date assignment, edit or delete records.</li>
+    <li><strong>Error Handling:</strong> Prevent duplicate entries for the same day.</li>
+    <li><strong>Listing with Pagination:</strong> View water intake history with easy navigation.</li>
+    <li><strong>Difference Calculation:</strong> Displays the difference between target and logged intake.</li>
+    <li><strong>Responsive Design:</strong> Fully mobile-friendly with a clean UI.</li>
+    <li><strong>Logout:</strong> Securely log out when finished.</li>
+    <li><strong>Static Pages:</strong> Informative pages like Home and About Us for better user engagement.</li>
+  </ul>
 
-### `npm start`
+  <h2>🛠️ Tech Stack</h2>
+  <ul>
+    <li><strong>Frontend:</strong> React.js, HTML, CSS, Bootstrap</li>
+    <li><strong>Storage:</strong> Local Storage for data persistence</li>
+  </ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h2>📂 Project Structure</h2>
+  <pre>
+daily-water-intake-site/
+├── public/              # Public files and assets
+├── src/                 # Source files
+│   ├── components/      # React components
+│   │   ├── AboutUs.js   # About Us page
+│   │   ├── Home.js      # Home page
+│   │   ├── Navbar.js    # Navigation bar
+│   │   ├── Login.js     # Login page
+│   │   ├── Register.js  # Signup page
+│   │   ├── WaterIntakeTracker.js  # Core functionality
+│   │   └── WaterList.js # Water intake history with pagination
+│   ├── router.js        # Application routing
+│   ├── App.js           # Main App component
+│   └── index.js         # Entry point
+├── package.json         # Project dependencies
+└── README.md            # Project documentation
+  </pre>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  
+  <h2>🎨 Components Overview</h2>
+  <ul>
+    <li><strong>Navbar:</strong> Navigation links for Home, About Us, Water List, Add Water, Login, and Signup.</li>
+    <li><strong>Home:</strong> Introduction to the app and its features.</li>
+    <li><strong>About Us:</strong> Static page providing information about the project.</li>
+    <li><strong>Water Intake Tracker:</strong> Form for adding water intake with date auto-filled.</li>
+    <li><strong>Water List:</strong> Displays water intake records with pagination and options to edit/delete entries.</li>
+    <li><strong>Login/Signup:</strong> User authentication pages to access personalized data.</li>
+  </ul>
 
-### `npm test`
+  <h2>🚧 Future Improvements</h2>
+  <ul>
+    <li>Integration with a database for cloud-based storage.</li>
+    <li>Adding reminders and notifications for users to log water intake.</li>
+    <li>Charts to visualize water intake trends.</li>
+  </ul>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <h2>👨‍💻 Developer</h2>
+  <p><strong>Name:</strong> Pranav P.S.<br>
+  <strong>Email:</strong> <a href="mailto:your-email@example.com">pranavps043@gmail.com</a><br>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  <p>💡 Stay hydrated and happy coding! 🌊</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</body>
+</html>
