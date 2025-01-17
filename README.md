@@ -68,7 +68,7 @@ daily-water-intake-site/
 
   <h2>👨‍💻 Developer</h2>
   <p><strong>Name:</strong> Pranav P.S.<br>
-  <strong>Email:</strong> <a href="mailto:your-email@example.com">pranavps043@gmail.com</a><br>
+  <strong>Email:</strong> <a href="mailto:pranavps043@gmail.com">pranavps043@gmail.com</a><br>
 
 
   <p>💡 Stay hydrated and happy coding! 🌊</p>
