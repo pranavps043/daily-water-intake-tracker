@@ -24,7 +24,7 @@
 
   <h2>🛠️ Tech Stack</h2>
   <ul>
-    <li><strong>Frontend:</strong> React.js, HTML, CSS, Bootstrap</li>
+    <li><strong>Frontend:</strong>  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> , HTML, CSS, Bootstrap</li>
     <li><strong>Storage:</strong> Local Storage for data persistence</li>
   </ul>
 
